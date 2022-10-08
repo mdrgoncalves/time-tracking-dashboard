@@ -116,6 +116,11 @@
         position: relative;
         margin-top: -1.875rem;
         border-radius: 1rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $color-grayish-blue;
+        }
     }
 
     &__title {

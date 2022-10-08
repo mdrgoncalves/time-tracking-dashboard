@@ -129,6 +129,10 @@ img {
   position: relative;
   margin-top: -1.875rem;
   border-radius: 1rem;
+  cursor: pointer;
+}
+.work-card__content:hover {
+  background-color: hsl(235deg, 45%, 61%);
 }
 .work-card__title {
   font-size: 1.125rem;
@@ -203,6 +207,10 @@ img {
   position: relative;
   margin-top: -1.875rem;
   border-radius: 1rem;
+  cursor: pointer;
+}
+.play-card__content:hover {
+  background-color: hsl(235deg, 45%, 61%);
 }
 .play-card__title {
   font-size: 1.125rem;
@@ -277,6 +285,10 @@ img {
   position: relative;
   margin-top: -1.875rem;
   border-radius: 1rem;
+  cursor: pointer;
+}
+.study-card__content:hover {
+  background-color: hsl(235deg, 45%, 61%);
 }
 .study-card__title {
   font-size: 1.125rem;
@@ -351,6 +363,10 @@ img {
   position: relative;
   margin-top: -1.875rem;
   border-radius: 1rem;
+  cursor: pointer;
+}
+.exercise-card__content:hover {
+  background-color: hsl(235deg, 45%, 61%);
 }
 .exercise-card__title {
   font-size: 1.125rem;
@@ -425,6 +441,10 @@ img {
   position: relative;
   margin-top: -1.875rem;
   border-radius: 1rem;
+  cursor: pointer;
+}
+.social-card__content:hover {
+  background-color: hsl(235deg, 45%, 61%);
 }
 .social-card__title {
   font-size: 1.125rem;
@@ -499,6 +519,10 @@ img {
   position: relative;
   margin-top: -1.875rem;
   border-radius: 1rem;
+  cursor: pointer;
+}
+.selfcare-card__content:hover {
+  background-color: hsl(235deg, 45%, 61%);
 }
 .selfcare-card__title {
   font-size: 1.125rem;
