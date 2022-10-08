@@ -1,0 +1,46 @@
+.profile {
+    background-color: $color-dark-blue;
+    border-radius: 1rem;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        background-color: $color-blue;
+        color: $color-white;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+
+    &__photo {
+        width: 4.5rem;
+        border-radius: 50%;
+        border: 3px solid $color-white;
+        margin-right: 1rem;
+    }
+
+    &__text {
+        font-size: 0.875rem;
+        color: $color-pale-blue;
+    }
+
+    &__name {
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 2.5rem;
+    }
+
+    &__navlist {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem 2rem;
+        background-color: $color-dark-blue;
+        color: $color-grayish-blue;
+        border-radius: 1rem;
+    }
+
+    &__button:hover {
+        color: $color-white;
+    }
+
+}

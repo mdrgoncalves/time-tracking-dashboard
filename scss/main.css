@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 html {
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Rubik", sans-serif;
 }
 
@@ -24,10 +24,51 @@ img {
   height: auto;
 }
 
+.profile {
+  background-color: hsl(235deg, 46%, 20%);
+  border-radius: 1rem;
+}
+.profile__content {
+  display: flex;
+  align-items: center;
+  background-color: hsl(246deg, 80%, 60%);
+  color: hsl(0deg, 0%, 100%);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.profile__photo {
+  width: 4.5rem;
+  border-radius: 50%;
+  border: 3px solid hsl(0deg, 0%, 100%);
+  margin-right: 1rem;
+}
+.profile__text {
+  font-size: 0.875rem;
+  color: hsl(236deg, 100%, 87%);
+}
+.profile__name {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+.profile__navlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: hsl(235deg, 46%, 20%);
+  color: hsl(235deg, 45%, 61%);
+  border-radius: 1rem;
+}
+.profile__button:hover {
+  color: hsl(0deg, 0%, 100%);
+}
+
 .container {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 2vh;
   padding: 5vh 2vh;
+  background-color: hsl(226deg, 43%, 10%);
 }/*# sourceMappingURL=main.css.map */
