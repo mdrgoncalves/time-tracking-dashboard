@@ -7,6 +7,8 @@ const weeklyButton = document.querySelector('.button-weekly');
 const monthlyButton = document.querySelector('.button-monthly');
 const cards = document.querySelectorAll('.cards-container article');
 
+document.addEventListener('DOMContentLoaded', setTimeData(dailyButton));
+
 // Function to update the DOM with the data from the JSON file
 function setTimeData(button) {
 
@@ -30,17 +32,27 @@ function setTimeData(button) {
 
 }
 
+function activeButton(button) {
+    dailyButton.classList.remove('button--active');
+    weeklyButton.classList.remove('button--active');
+    monthlyButton.classList.remove('button--active');
+    button.classList.add('button--active');
+}
+
 // Event Listeners
 
 dailyButton.addEventListener('click', function() {
+    activeButton(this);
     setTimeData(this);
 });
 
 weeklyButton.addEventListener('click', function() {
+    activeButton(this);
     setTimeData(this);
 });
 
 monthlyButton.addEventListener('click', function() {
+    activeButton(this);
     setTimeData(this);
 });
 
