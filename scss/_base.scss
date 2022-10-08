@@ -1,0 +1,51 @@
+//Colors
+
+$color-blue: hsl(246, 80%, 60%);
+$color-white: hsl(0, 0%, 100%);
+
+$color-work-red: hsl(15, 100%, 70%);
+$color-play-blue: hsl(195, 74%, 62%);
+$color-study-red: hsl(348, 100%, 68%);
+$color-exercise-green: hsl(145, 58%, 55%);
+$color-social-violet: hsl(264, 64%, 52%);
+$color-selfcare-orange: hsl(43, 84%, 65%);
+
+$color-darkest-blue: hsl(226, 43%, 10%);
+$color-dark-blue: hsl(235, 46%, 20%);
+$color-grayish-blue: hsl(235, 45%, 61%);
+$color-pale-blue: hsl(236, 100%, 87%);
+
+//Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+$font-family: 'Rubik', sans-serif;
+$title-size: 1.125rem;
+
+//Reset CSS
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: $font-family;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
