@@ -51,12 +51,48 @@
         }
     }
 
+    @media screen and (min-width: $desktop-screen) {
+
+        &__content {
+            flex-direction: column;
+            align-items: unset;  
+            padding-bottom: 4rem;
+        }
+    
+        &__photo {
+            width: 35%;
+            margin-bottom: 2rem;
+        }
+    
+        &__name {
+            font-size: 2.5rem;
+            line-height: 3rem;
+        }
+    
+        &__navlist {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+    }
+
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2.5vh;
+
+    @media screen and (min-width: $desktop-screen) {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2.5vh;
+    }
 }
 
 @mixin card($color) {
     color: $color-white;
     border-radius: 1rem;
-    margin-bottom: 2.5vh;
     
     &__image {
         background-color: $color;
@@ -101,9 +137,49 @@
     &__weeker {
         font-size: 0.875rem;    
         line-height: 1.5rem;
+        color: $color-pale-blue;
+    }
+
+    @media screen and (min-width: $desktop-screen) {
+
+        &__image {
+            height: 4rem;
+        }
+    
+        &__image img{
+            margin-top: -8px;
+        }
+    
+        &__content {
+            display: block;
+            margin-top: -1.5rem;   
+        }
+    
+        &__title {
+            font-size: 1.125rem;
+        }
+    
+        &__timer {
+            font-size: 3rem;
+            font-weight: 300;
+        }
+    
+        &__status {
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &__menu {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+        }
+
     }
 }
-    
+
 .work-card {
     @include card($color-work-red);
 }
@@ -130,4 +206,9 @@
 
 footer {
     color: $color-white;
+    text-align: center;
+
+    @media screen and (min-width: $desktop-screen) {
+        grid-column: span 4;
+    }
 }

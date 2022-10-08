@@ -1,3 +1,14 @@
+body {
+    background-color: $color-darkest-blue;
+
+    @media screen and (min-width: $desktop-screen) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+}
+
 .container {
     margin: 0 auto;
 
@@ -5,5 +16,22 @@
     grid-template-columns: 1fr;
     row-gap: 2.5vh;
     padding: 5vh 2vh;
-    background-color: $color-darkest-blue;
+
+    & a {
+        text-decoration: none;
+        font-weight: 500;
+        color: $color-pale-blue;
+
+        &:visited {
+            color: $color-pale-blue;
+        }   
+    }
+
+    @media screen and (min-width: $desktop-screen) {
+        width: 100%;
+        max-width: 1024px;
+        grid-template-columns: 1fr 3fr;
+        column-gap: 2.5vh;
+    }
 }
+
