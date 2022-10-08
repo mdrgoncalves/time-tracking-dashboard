@@ -57,10 +57,17 @@ img {
   align-items: center;
   padding: 1.5rem 2rem;
   background-color: hsl(235deg, 46%, 20%);
-  color: hsl(235deg, 45%, 61%);
   border-radius: 1rem;
 }
-.profile__button:hover {
+.profile .button {
+  color: hsl(235deg, 45%, 61%);
+  background: none;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.profile .button--active {
   color: hsl(0deg, 0%, 100%);
 }
 
