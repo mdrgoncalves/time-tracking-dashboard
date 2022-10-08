@@ -7,15 +7,14 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./scss/main.css">
   
-  <title>Frontend Mentor | Time tracking dashboard</title>
+  <title>Frontend Mentor | Time Tracking Dashboard</title>
 
 </head>
 <body>
 
-  <main class="container">
+  <div class="container">
 
     <header class="profile">
-
       <div class="profile__content">
         <div class="image-container">
           <img src="./images/image-jeremy.png" alt="Profile photo" class="profile__photo">
@@ -34,51 +33,130 @@
           <li class="profile__button">Monthly</li>
         </ul>
       </nav>
-
     </header>
 
-    <section>
-      <h2>Work</h2>
-      <span>32hrs</span>
-      <span>Last week - 36hrs</span>
-    </section>
+    <main class="cards-container">
+      <article class="work-card">
+        <div class="work-card__image">
+          <img src="./images/icon-work.svg" alt="Work icon">
+        </div>
+        <div class="work-card__content">
+          <div class="work-card__heading">
+            <h2 class="work-card__title">Work</h2>
+            <p class="work-card__timer">32hrs</p>
+          </div>
+      
+          <div class="work-card__status">
+            <div class="work-card__menu">
+              <img src="./images/card-menu.svg" alt="Card menu">
+            </div>
+            <p class="work-card__weeker">Last week - 36hrs</p>
+          </div>
+        </div>
+      </article>
 
-    <section>
-      <h2>Work</h2>
-      <span>32hrs</span>
-      <span>Last week - 36hrs</span>
-    </section>
+      <article class="play-card">
+        <div class="play-card__image">
+          <img src="./images/icon-play.svg" alt="Play icon">
+        </div>
+        <div class="play-card__content">
+          <div class="play-card__heading">
+            <h2 class="play-card__title">Play</h2>
+            <p class="play-card__timer">10hrs</p>
+          </div>
+      
+          <div class="play-card__status">
+            <div class="play-card__menu">
+              <img src="./images/card-menu.svg" alt="Card menu">
+            </div>
+            <p class="play-card__weeker">Last week - 8hrs</p>
+          </div>
+        </div>
+      </article>
 
-    <section>
-      <h2>Work</h2>
-      <span>32hrs</span>
-      <span>Last week - 36hrs</span>
-    </section>
+      <article class="study-card">
+        <div class="study-card__image">
+          <img src="./images/icon-study.svg" alt="Study icon">
+        </div>
+        <div class="study-card__content">
+          <div class="study-card__heading">
+            <h2 class="study-card__title">Study</h2>
+            <p class="study-card__timer">4hrs</p>
+          </div>
+      
+          <div class="study-card__status">
+            <div class="study-card__menu">
+              <img src="./images/card-menu.svg" alt="Card menu">
+            </div>
+            <p class="study-card__weeker">Last week - 7hrs</p>
+          </div>
+        </div>
+      </article>
+      
+      <article class="exercise-card">
+        <div class="exercise-card__image">
+          <img src="./images/icon-exercise.svg" alt="Exercise icon">
+        </div>
+        <div class="exercise-card__content">
+          <div class="exercise-card__heading">
+            <h2 class="exercise-card__title">Exercise</h2>
+            <p class="exercise-card__timer">4hrs</p>
+          </div>
+      
+          <div class="exercise-card__status">
+            <div class="exercise-card__menu">
+              <img src="./images/card-menu.svg" alt="Card menu">
+            </div>
+            <p class="exercise-card__weeker">Last week - 5hrs</p>
+          </div>
+        </div>
+      </article>
 
-    <section>
-      <h2>Work</h2>
-      <span>32hrs</span>
-      <span>Last week - 36hrs</span>
-    </section>
+      <article class="social-card">
+        <div class="social-card__image">
+          <img src="./images/icon-social.svg" alt="Social icon">
+        </div>
+        <div class="social-card__content">
+          <div class="social-card__heading">
+            <h2 class="social-card__title">Social</h2>
+            <p class="social-card__timer">5hrs</p>
+          </div>
+      
+          <div class="social-card__status">
+            <div class="social-card__menu">
+              <img src="./images/card-menu.svg" alt="Card menu">
+            </div>
+            <p class="social-card__weeker">Last week - 10hrs</p>
+          </div>
+        </div>
+      </article>
 
-    <section>
-      <h2>Work</h2>
-      <span>32hrs</span>
-      <span>Last week - 36hrs</span>
-    </section>
+      <article class="selfcare-card">
+        <div class="selfcare-card__image">
+          <img src="./images/icon-self-care.svg" alt="Work icon">
+        </div>
+        <div class="selfcare-card__content">
+          <div class="selfcare-card__heading">
+            <h2 class="selfcare-card__title">Self Care</h2>
+            <p class="selfcare-card__timer">2hrs</p>
+          </div>
+      
+          <div class="selfcare-card__status">
+            <div class="selfcare-card__menu">
+              <img src="./images/card-menu.svg" alt="Card menu">
+            </div>
+            <p class="selfcare-card__weeker">Last week - 2hrs</p>
+          </div>
+        </div>
+      </article>
+    </main>
 
-    <section>
-      <h2>Work</h2>
-      <span>32hrs</span>
-      <span>Last week - 36hrs</span>
-    </section>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">@mdrgoncalves</a>.
+    </footer>
 
-  </main>
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
+
 </body>
 </html>

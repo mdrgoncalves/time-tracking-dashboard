@@ -64,11 +64,279 @@ img {
   color: hsl(0deg, 0%, 100%);
 }
 
+.work-card {
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 1rem;
+  margin-bottom: 2.5vh;
+}
+.work-card__image {
+  background-color: hsl(15deg, 100%, 70%);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  height: 5rem;
+  overflow: hidden;
+}
+.work-card__image img {
+  margin-top: -10px;
+}
+.work-card__content {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(235deg, 46%, 20%);
+  padding: 2rem;
+  position: relative;
+  margin-top: -1.875rem;
+  border-radius: 1rem;
+}
+.work-card__title {
+  font-size: 1.125rem;
+}
+.work-card__timer {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+.work-card__status {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.work-card__weeker {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.play-card {
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 1rem;
+  margin-bottom: 2.5vh;
+}
+.play-card__image {
+  background-color: hsl(195deg, 74%, 62%);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  height: 5rem;
+  overflow: hidden;
+}
+.play-card__image img {
+  margin-top: -10px;
+}
+.play-card__content {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(235deg, 46%, 20%);
+  padding: 2rem;
+  position: relative;
+  margin-top: -1.875rem;
+  border-radius: 1rem;
+}
+.play-card__title {
+  font-size: 1.125rem;
+}
+.play-card__timer {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+.play-card__status {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.play-card__weeker {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.study-card {
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 1rem;
+  margin-bottom: 2.5vh;
+}
+.study-card__image {
+  background-color: hsl(348deg, 100%, 68%);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  height: 5rem;
+  overflow: hidden;
+}
+.study-card__image img {
+  margin-top: -10px;
+}
+.study-card__content {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(235deg, 46%, 20%);
+  padding: 2rem;
+  position: relative;
+  margin-top: -1.875rem;
+  border-radius: 1rem;
+}
+.study-card__title {
+  font-size: 1.125rem;
+}
+.study-card__timer {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+.study-card__status {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.study-card__weeker {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.exercise-card {
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 1rem;
+  margin-bottom: 2.5vh;
+}
+.exercise-card__image {
+  background-color: hsl(145deg, 58%, 55%);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  height: 5rem;
+  overflow: hidden;
+}
+.exercise-card__image img {
+  margin-top: -10px;
+}
+.exercise-card__content {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(235deg, 46%, 20%);
+  padding: 2rem;
+  position: relative;
+  margin-top: -1.875rem;
+  border-radius: 1rem;
+}
+.exercise-card__title {
+  font-size: 1.125rem;
+}
+.exercise-card__timer {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+.exercise-card__status {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.exercise-card__weeker {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.social-card {
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 1rem;
+  margin-bottom: 2.5vh;
+}
+.social-card__image {
+  background-color: hsl(264deg, 64%, 52%);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  height: 5rem;
+  overflow: hidden;
+}
+.social-card__image img {
+  margin-top: -10px;
+}
+.social-card__content {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(235deg, 46%, 20%);
+  padding: 2rem;
+  position: relative;
+  margin-top: -1.875rem;
+  border-radius: 1rem;
+}
+.social-card__title {
+  font-size: 1.125rem;
+}
+.social-card__timer {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+.social-card__status {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social-card__weeker {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.selfcare-card {
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 1rem;
+  margin-bottom: 2.5vh;
+}
+.selfcare-card__image {
+  background-color: hsl(43deg, 84%, 65%);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  height: 5rem;
+  overflow: hidden;
+}
+.selfcare-card__image img {
+  margin-top: -10px;
+}
+.selfcare-card__content {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(235deg, 46%, 20%);
+  padding: 2rem;
+  position: relative;
+  margin-top: -1.875rem;
+  border-radius: 1rem;
+}
+.selfcare-card__title {
+  font-size: 1.125rem;
+}
+.selfcare-card__timer {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+.selfcare-card__status {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.selfcare-card__weeker {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+footer {
+  color: hsl(0deg, 0%, 100%);
+}
+
 .container {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 2vh;
+  row-gap: 2.5vh;
   padding: 5vh 2vh;
   background-color: hsl(226deg, 43%, 10%);
 }/*# sourceMappingURL=main.css.map */

@@ -44,3 +44,82 @@
     }
 
 }
+
+@mixin card($color) {
+    color: $color-white;
+    border-radius: 1rem;
+    margin-bottom: 2.5vh;
+    
+    &__image {
+        background-color: $color;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1rem;
+        border-radius: 1rem;
+        height: 5rem;
+        overflow: hidden;
+    }
+
+    &__image img{
+        margin-top: -10px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        background-color: $color-dark-blue;
+        padding: 2rem;
+        position: relative;
+        margin-top: -1.875rem;
+        border-radius: 1rem;
+    }
+
+    &__title {
+        font-size: 1.125rem;
+    }
+
+    &__timer {
+        font-size: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    &__status {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__weeker {
+        font-size: 0.875rem;    
+        line-height: 1.5rem;
+    }
+}
+    
+.work-card {
+    @include card($color-work-red);
+}
+
+.play-card {
+    @include card($color-play-blue);
+}
+
+.study-card {
+    @include card($color-study-red);
+}
+
+.exercise-card {
+    @include card($color-exercise-green);
+}
+
+.social-card {
+    @include card($color-social-violet);
+}
+
+.selfcare-card {
+    @include card($color-selfcare-orange);
+}
+
+footer {
+    color: $color-white;
+}
